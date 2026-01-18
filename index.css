@@ -1,0 +1,409 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+body{
+    /* height: 300px; */
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    
+    
+}
+.bgcolor{
+
+    background-color: #000000;
+}
+.container-fluid{
+  
+   overflow: hidden;
+
+    width: 100%;
+    /* background-color: black; */
+   
+
+}
+
+.navbar{
+
+    height: 50px;
+    background-color: #0a0a13;
+
+    
+}
+
+.navbar-nav .nav-link {
+    color: rgb(224, 72, 72);
+    font-size: 14px;
+    position: relative;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+}
+
+/* Hover text color */
+.navbar-nav .nav-link:hover {
+    color: #00ffd5;
+  
+
+}
+
+/* Underline animation */
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 0%;
+    height: 2px;
+    background-color: #ff0000;
+    transition: width 0.3s ease;
+    
+}
+
+/* hover  */
+.navbar-nav .nav-link:hover::after  {
+    width: 100%;
+}
+.navbar-toggler {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+
+.topfirstcontainer{
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+.coverimg{
+    height: 100%;
+    object-fit: cover;
+    object-position: right center;
+}
+
+
+
+
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: black;
+ 
+}
+
+.ProfilePhoto{
+     
+
+    position: absolute;
+    
+    top: 110px;
+   
+    padding-left: 25px;
+    padding-right: 25px;
+
+   
+   
+   
+}
+
+
+.topsecondcontainerleft{
+    height: 100px;
+    width: 100%;
+    /* width: 650px; */
+   
+    /* margin-right: 170px; */
+    margin-top: 11px;
+    /* background-color: #00ff55; */
+   
+}
+
+  .nameandrole{
+    width: 100;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    }
+
+
+
+
+
+
+@media (max-width: 992px){
+    
+    .topsecondcontainerleft{
+        height: 100px;
+      
+        margin-left: 10px;
+        margin-right: 10px;
+
+  
+        margin-top: 25px;
+        text-align: center;
+        
+        /* background-color: #00ff55; */
+
+
+        
+    }
+
+    .topsecondcontainerleft {
+    position: relative;
+    top: 110px;
+    height: 120px;
+
+   
+    
+    }
+    .nameandrole{
+    width: 100;
+    text-align: center;
+
+    }
+
+}
+
+
+
+
+
+
+.nameandrole-Roles{
+
+    font-size: smaller;
+  
+   
+  
+}
+
+.nameandrole-Name{
+
+    font-size: medium;
+    
+     
+    
+}
+
+.mainprofile row{
+
+    position: absolute;
+    top: 30px;
+    
+}
+
+
+
+/* aboutus */
+
+
+
+.topsecondcontainerright{
+    position: relative;
+    
+    width: 100%;
+      height: 73px;
+    
+    
+    
+    /* background-color: #dd6a6a; */
+}
+
+
+@media (max-width: 992px){
+
+    .mainprofile{
+        padding: 0;
+        height: 285px;
+        width: 100%;
+    }
+    .firstspace{
+
+        display: none;
+    }
+    .topsecondcontainerright{
+        align-items: center;
+        position: relative;
+        top: 30px;
+        margin-top:259px;
+        
+       height: 139px;
+   
+      
+        /* background-color: #dd6a6a; */
+    }
+
+ 
+
+
+
+}
+
+
+@media (max-width: 992px){
+    
+
+
+   
+
+}
+
+
+
+.icon-btn {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #222;
+    cursor: pointer;
+    
+}
+
+.icon-btn img {
+    width: 18px;
+    height: 18px;
+    display: fixed;
+}
+
+
+.spacecontainer-fluid{
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 5px;
+    background-color: #141427;
+}
+
+
+.spacecontainerwithout-fluid{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+  
+}
+
+
+
+
+
+/* album css */
+
+
+
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #0000001a;
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #0000001a,
+          inset 0 0.125em 0.5em #00000026;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      .bd-mode-toggle .bi {
+        width: 1em;
+        height: 1em;
+      }
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+
+
+
+      .imgofexpr{
+
+        width: 32px;
+        height: 32px;
+        border-radius: 7px;
+        border: transparent 12px;
+       
+       
+      }
+
+      
+       .defaultboxclr{
+
+        background-color:  #141414;
+        
+      } 
+
+      .blankbox{
+
+        width: 100%;
+        height: 120px;
+      }
+
+
+
+
+     .form{
+
+        height: 50px;
+     }
